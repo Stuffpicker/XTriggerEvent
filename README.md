@@ -2,6 +2,8 @@
 javascript customed event for for browser and nodejs. With O dependency.
 
 How to use it:
+
+
 class Caddy extends XTriggerEvent{
 
   addProduct(prod){
