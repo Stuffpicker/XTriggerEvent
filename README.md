@@ -5,14 +5,13 @@
 //How to use it? Very easy to use. A basic use case:
 
 
-import XTriggerEvent from "./XTriggerEvent.js";
+    import XTriggerEvent from "./XTriggerEvent.js";
 
 
-class Caddy extends XTriggerEvent{
+    class Caddy extends XTriggerEvent{
 
-  
-  addProduct(prod){
-  
+        addProduct(prod){
+
           prod = prod || {name:"milk xxl nonvo", price:"20", ref:"xxlmilk-00T-234"}
           this.registerEvent("addProduct", prod)
         }
@@ -21,7 +20,7 @@ class Caddy extends XTriggerEvent{
           prod = prod || {name:"milk xxl nonvo", price:"20", ref:"xxlmilk-00T-234"}
           this.registerEvent("removeProduct",prod)
         }
-      }
+    }
       
       let mycaddy = new Caddy()
       
