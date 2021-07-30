@@ -1,6 +1,6 @@
 //# XTriggerEvent
 
-//javascript customed event for for browser and nodejs. With O dependency. Written by a novice!
+//Custom javascript event trigger for browser and nodejs. With 0 dependency. Written by a novice!
 
 //How to use it? Very easy to use. A basic use case:
 
